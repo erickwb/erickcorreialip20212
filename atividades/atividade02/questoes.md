@@ -10,7 +10,9 @@ R: Implementação baseada em Compilação. {Exemplo de liguagens: C, COBOL e Ad
    Implementação Híbrida. {Exemplo de linhuagens: Perl, e as primeiras implementações de Java}
 
 ## Questão 02 
-R:
+R: Comentários de múltiplas linhas são muito vantajoso no inicio dos codígos para uso de cabeçalhos, e ações de funções. já que podemos escrever varios dados do programa e do autor sem ter que cometar linha por linha. Sua desvantagem e que fica muito "deselegante" usar comentários de múltiplas linhas para explicar seções pequenas do programa.
+
+Comentários por linha são muitos versáteis para descrever pequenas parte do codígo, sua desvantagem e que fica muito trabalhoso usa-lo para comentarios grandes.
 
 ## Questão 03
 R: Por dois motivos !!
