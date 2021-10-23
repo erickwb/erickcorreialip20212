@@ -3,7 +3,7 @@
 Erick Correia Silva
 
 ## Questão 01
-## A)  derivação mais à esquerda
+## A)  A = A + (B + C) "derivação mais à esquerda"
 < assign > -> < id > = < expr >
 
            -> A = < expr > 
@@ -39,6 +39,56 @@ Erick Correia Silva
            -> A = A + ( B + C ) 
          
 ![Questão 1A Atividade 03 LIP](https://user-images.githubusercontent.com/39568346/138574089-35f3bd80-b799-4a49-b098-25369e105f33.png)
+
+## B)  A = B * (C * (A + B)) "derivação mais à esquerda"
+< assign > -> < id > = < expr >
+
+           -> A = < expr >
+           
+           -> A = < term >
+           
+           -> A = < term > * < factor >
+           
+           -> A = < factor > * < factor >
+           
+           -> A = < id > * < factor >
+           
+           -> A = B * < factor >
+           
+           -> A = B * ( < expr > )
+           
+           -> A = B * ( < term > )
+           
+           -> A = B * ( < factor > * < factor > )
+           
+           -> A = B * ( < id > * < factor > )
+           
+           -> A = B * ( C * < factor > )
+           
+           -> A = B * ( C * ( < expr > ) )
+           
+           -> A = B * ( C * ( < expr > + < term > ) )
+           
+           -> A = B * ( C * ( < term > + < term > ) )
+           
+           -> A = B * ( C * ( < factor > + < term > ) )
+           
+           -> A = B * ( C * ( < id > + < term > ) )
+           
+           -> A = B * ( C * ( A + < term > ) )
+
+           -> A = B * ( C * ( A + < factor > ) )
+          
+           -> A = B * ( C * ( A + < id > ) )
+                     
+           -> A = B * ( C * ( A + B ) )
+
+
+
+
+
+
+![Quastão 1B Atividade 03](https://user-images.githubusercontent.com/39568346/138574218-706eb7b5-5db0-4209-b240-662166d39413.png)
 
   
 
