@@ -2,6 +2,12 @@
 
 Erick Correia Silva
 
+> Correção: 1,7
+>
+> Tudo bem feito nas primeiras questões. Derivações corretas e árvores bem compreensíveis.
+> A última questão é que poderia ser melhorada. Por exemplo, o break é opcional.
+
+
 ## Questão 01
 ## A)  A = A + (B + C) "derivação mais à esquerda"
 < assign > -> < id > = < expr >
