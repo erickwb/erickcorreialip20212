@@ -104,31 +104,31 @@ Erick Correia Silva
            
            -> (< lexp-seq > (< lexp-seq > < atomo >))
            
-           -> (< lexp-seq > (< lexp-seq > < identificador >))
+           -> (< lexp-seq > (< lexp-seq >  identificador ))
            
-           -> (< lexp-seq > (< lexp-seq > < lexp > < identificador >))
+           -> (< lexp-seq > (< lexp-seq > < lexp > identificador ))
            
-           -> (< lexp-seq > (< lexp-seq > < atomo > < identificador >))
+           -> (< lexp-seq > (< lexp-seq > < atomo > identificador ))
            
-           -> (< lexp-seq > (< lexp-seq > < identificador > < identificador >))
+           -> (< lexp-seq > (< lexp-seq > identificador identificador ))
            
-           -> (< lexp-seq > (< lexp > < identificador > < identificador >))
+           -> (< lexp-seq > (< lexp > identificador identificador ))
            
-           -> (< lexp-seq > (< atomo > < identificador > < identificador >))
+           -> (< lexp-seq > (< atomo > identificador identificador ))
            
-           -> (< lexp-seq > (< identificador > < identificador > < identificador >))
+           -> (< lexp-seq > (identificador identificador identificador ))
            
-           -> (< lexp-seq > < lexp > (< identificador > < identificador > < identificador >))
+           -> (< lexp-seq > < lexp > (identificador identificador identificador ))
            
-           -> (< lexp-seq > < atomo > (< identificador > < identificador > < identificador >))
+           -> (< lexp-seq > < atomo > (identificador identificador identificador ))
            
-           -> (< lexp-seq > < numero > (< identificador > < identificador > < identificador >))
+           -> (< lexp-seq > numero (identificador identificador identificador ))
            
-           -> (< lexp > < numero > (< identificador > < identificador > < identificador >))
+           -> (< lexp > umero (identificador > < identificador > < identificador >))
            
-           -> (< atomo > < numero > (< identificador > < identificador > < identificador >))
+           -> (< atomo > numero (identificador identificador identificador ))
            
-           -> (< identificador > < numero > (< identificador > < identificador > < identificador >))
+           -> (identificador  numero (identificador identificador identificador ))
            
            
 ## Questão 03
