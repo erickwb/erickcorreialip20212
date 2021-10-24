@@ -135,6 +135,43 @@ Erick Correia Silva
            
 ## Questão 03
 ## Resposta)
+ Switch em C exemplo
+ 
+ switch (variável){
+ 
+   case constante1:
+   
+     Instruções;
+     
+   break;
+
+   case constante2:
+   
+     Instruções;
+     
+   break;
+
+   default
+   
+     Instruções;
+}
+
+## BNF Switch da linguagem C
+
+## obs: <stmt> esta relacionando a expressões aritmeticas, ou a expressões (instruções) em geral 
+
+
+< switch_stmt > -> switch ( < controle > ) { < lista_casos > }
+
+< controle > -> < variavel > | < stmt >
+
+< lista_casos > -> case < constante > : <stmt> ; break ;  defalt < stmt > ; | case < constante > : <stmt> ; break ;
+           
+
+           
+
+
+
 
 
   
