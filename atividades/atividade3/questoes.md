@@ -165,7 +165,7 @@ Erick Correia Silva
 
 < controle > -> < variavel > | < stmt >
 
-< lista_casos > -> case < constante > : <stmt> ; break ;  defalt < stmt > ; | case < constante > : <stmt> ; break ;
+< lista_casos > -> case < constante > : < stmt > ; break ;  defalt < stmt > ; | case < constante > : < stmt > ; break ;
            
 
            
