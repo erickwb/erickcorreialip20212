@@ -130,6 +130,8 @@ Erick Correia Silva
            
            -> (identificador  numero (identificador identificador identificador ))
            
+![Questão 2 Ativiadade 03 LIP](https://user-images.githubusercontent.com/39568346/138575290-d910c8bc-5a4c-4686-b65e-b5336a743a5a.png)
+           
            
 ## Questão 03
 ## Resposta)
