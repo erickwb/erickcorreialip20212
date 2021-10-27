@@ -49,5 +49,6 @@ Segunda forma: (derivação a esquerda)
        
 Arvores de derivação: 
 
+![Questão 01 ativiadade 04 ](https://user-images.githubusercontent.com/39568346/139163505-4afa0f89-57e4-43c3-afa0-eb24f08a5a18.png)
 
 
