@@ -1,5 +1,5 @@
 # Atividade 02
-
+## Correção: 0,7
 Erick Correia Silva
 
 ## Questão 01
