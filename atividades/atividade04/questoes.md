@@ -55,13 +55,13 @@ Arvores de derivação:
 
 R) Transformando a linguagem em EBNF temos:
 
-< program > -> begin [ < stmt_list > ] end
+< program > -> begin  < stmt_list >  end
 
-< stmt_list > -> < stmt > | < stmt > ; < stmt_list > 
+< stmt_list > -> < stmt >  | <stmt> ; <stmt_list>  
 
 < stmt > -> < var > = < expression >
  
-< expression > -> < var > ( + | - ) < var > | < var > 
+< expression > -> < var > {  var ( + | - ) < var > }
  
 < var > -> A | B | C 
 
@@ -71,10 +71,51 @@ R) Transformando a linguagem em EBNF temos:
 R) Transformando a linguagem em EBNF temos:
 
 < assign > -> < id > = < expr > 
+ 
 < id > -> A|B|C
-< expr > -> < expr > ( + | - ) 
+ 
+< expr > -> < id > { < expr> ( + | * ) < expr> }
 
 
+## Questão 04
+ 
+obs: Formato da demonstração da gramática de atributos 
+ 
+ ** Regra Sintática
+ 
+ ** Regra Semântica
+ 
+ R)
+ 
+Regra Sintática: < assign > -> < var > = < expr > 
 
+Regra Semântica:  ( < expr >.expected_type <- < var >.actual_type )
+ 
+Regra Sintática: < expr > -> < var >[2] + < var >[3]
+ 
+Regra Semântica: < var >[2].env <- < expr >.env
+      
+                 < var >[3].env <- < expr >.env
+                 
+                 < expr >.actual_type <- < var >[2].actual_type
+                  
+                 Predicado: < var >[2] .actual_type = < var >[3].actual_type
+                  
+Regra Sintática: < expr > -> < var >
+                  
+Regra Semântica: < expr >.actual_type <- < var >.actual_type
+                  
+Predicado: < expr >.actual_type == < expr >.expected_type
+                  
+Regra sintática: < var > -> A | B | C 
+                  
+Regra semântica: < var >.actual_type <- look-up( < var >.string )
+
+                  
+                  
+                  
+
+ 
+ 
 
 
