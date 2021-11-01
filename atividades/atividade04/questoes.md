@@ -1,5 +1,7 @@
 # Atividade 04
 
+> Correção: 1,0
+
 Erick Correia Silva
 
 ## Questão 01
@@ -51,6 +53,10 @@ Arvores de derivação:
 
 ![Questão 01 ativiadade 04 ](https://user-images.githubusercontent.com/39568346/139163505-4afa0f89-57e4-43c3-afa0-eb24f08a5a18.png)
 
+> Correção: 0,5
+> 
+> Tudo OK!!!
+
 ## Questão 02
 
 R) Transformando a linguagem em EBNF temos:
@@ -65,7 +71,11 @@ R) Transformando a linguagem em EBNF temos:
  
 < var > -> A | B | C 
 
-
+> Correção: 0,3
+>
+> Quase lá. Você poderia ter tratado \<stmt_list\> da mesma forma que tratou \<expr\>.
+ 
+ 
 ## Questão 03
 
 R) Transformando a linguagem em EBNF temos:
@@ -76,7 +86,10 @@ R) Transformando a linguagem em EBNF temos:
  
 < expr > -> < id > { < expr> ( + | * ) < expr> }
 
-
+> Correção: 0,3
+>
+> Quase lá. Você acabou eliminando os parênteses.
+ 
 ## Questão 04
  
 obs: Formato da demonstração da gramática de atributos 
@@ -111,8 +124,10 @@ Regra sintática: < var > -> A | B | C
                   
 Regra semântica: < var >.actual_type <- look-up( < var >.string )
 
-                  
-                  
+> Correção: 0,0
+>
+> Você não fez a comparação dos tipos.
+              
                   
 
  
