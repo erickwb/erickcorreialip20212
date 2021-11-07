@@ -2,4 +2,4 @@
 
 ## Erick Correia Silva 
 
-OBS: Não conseguir desenvolver muito bem a atividade, tive algumas dificultades com a linguagem python. 
+OBS: Não conseguir desenvolver muito bem a atividade, tive algumas dificultades com a linguagem python. Tentei ate o utimo momento !!
