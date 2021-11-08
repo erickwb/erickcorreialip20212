@@ -1,3 +1,6 @@
+# Correção: 1,5
+# Parece estar correto, mas quando executo não produz saída, nem mensagem de erro.
+
 '''
 Nome: Erick Correia Silva 
 Dia: 04/11/2021
