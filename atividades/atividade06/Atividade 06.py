@@ -1,3 +1,6 @@
+# Correção: 1,0
+# Não tem como invocar o analisador sintático, pois você não definiu um método main. Então não vou considerar a integração.
+
 """
 Nome: Erick Correia Silva 
 Data 12/11/2021
