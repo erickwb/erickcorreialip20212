@@ -1,5 +1,7 @@
 # Atividade 07
 
+# Correção: 1,0
+
 ## Erick Correia Silva 
 
 
