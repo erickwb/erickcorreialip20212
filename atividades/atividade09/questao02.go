@@ -1,3 +1,5 @@
+// Correção: 0,5
+// Coloque uns nomes mais significativos nos argumentos para as funções.
 package main
 
 import "fmt"
