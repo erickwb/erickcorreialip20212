@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"medidas/medidaconv"
+	"medidas/distconv"
+	"medidas/pesoconv"
 	"os"
 	"strconv"
 )
@@ -14,9 +15,14 @@ func main() {
 			fmt.Fprintf(os.Stderr, "cf: %v\n", err)
 			os.Exit(1)
 		}
-		p := medidaconv.Pes(t)
-		m := medidaconv.Metro(t)
-		fmt.Printf("\n %s = %s \n %s = %s \n ", p, medidaconv.PToM(p), m, medidaconv.MToP(m))
+		p := distconv.Pes(t)
+		m := distconv.Metro(t)
+		l := pesoconv.Libra(t)
+		k := pesoconv.Kilo(t)
+
+		fmt.Printf("\n Conversão unidades de distancia \n %s = %s \n %s = %s \n ", p, distconv.PToM(p), m, distconv.MToP(m))
+
+		fmt.Printf("\n Conversão unidades de peso \n %s = %s \n %s = %s \n ", l, pesoconv.LToK(l), k, pesoconv.KToL(k))
 
 	}
 }
