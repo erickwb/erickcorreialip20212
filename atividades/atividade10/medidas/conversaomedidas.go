@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"medidas/medidasconv"
+	"medidas/medidaconv"
 	"os"
 	"strconv"
 )
@@ -14,9 +14,9 @@ func main() {
 			fmt.Fprintf(os.Stderr, "cf: %v\n", err)
 			os.Exit(1)
 		}
-		p := medidasconv.Pes(t)
-		m := medidasconv.Metro(t)
-		fmt.Printf("\n %s = %s \n %s = %s \n ", p, medidasconv.PToM(p), m, medidasconv.MToP(m))
+		p := medidaconv.Pes(t)
+		m := medidaconv.Metro(t)
+		fmt.Printf("\n %s = %s \n %s = %s \n ", p, medidaconv.PToM(p), m, medidaconv.MToP(m))
 
 	}
 }
