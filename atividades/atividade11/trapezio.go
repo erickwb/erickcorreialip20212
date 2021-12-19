@@ -43,6 +43,7 @@ func main() {
 
 	for i := 0; i < int(Intervalos); i++ {
 		sum = sum + Integral(Limite_inferior) + Integral((Limite_inferior+h))*h/2
+		Limite_inferior = Limite_inferior + h
 	}
 	fmt.Printf("O resultado da soma e: %g", sum)
 
