@@ -1,3 +1,4 @@
+// Correção: 1,8
 package main
 
 import (
@@ -42,6 +43,7 @@ func main() {
 	h := (Limite_superior - Limite_inferior) / float64(Intervalos)
 
 	for i := 0; i < int(Intervalos); i++ {
+		// Correção: um pequeno equívoco. O h deve multiplicar a soma das duas funções.  
 		sum = sum + Integral(Limite_inferior) + Integral((Limite_inferior+h))*h/2
 		Limite_inferior = Limite_inferior + h
 	}
