@@ -1,3 +1,10 @@
+// Correção: 0,5.
+// Ao tentar:
+//  $ go run max.go 200 1 100 10
+// Retornou:
+//  O maior valor da lista é: 100
+// O problema é o uso do índice. Você deveria ir comparando cada elemento com o max do resto da lista. No caso básico ele comparava os dois últimos, depois ir retrocedendo,
+// comparando um por um. Usando índice, ele perde o primeiro valor, que é maior.
 package main
 
 import (
